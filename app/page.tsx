@@ -5,9 +5,14 @@ import SystemArchitecture from './components/SystemArchitecture';
 import TechnicalMetrics from './components/TechnicalMetrics';
 import ContactSection from './components/ContactSection';
 
+/**
+ * Renders the backend portfolio page composed of hero, system architecture, technical metrics, and contact sections.
+ *
+ * @returns The page's root JSX element containing the assembled sections
+ */
 export default function BackendPortfolio() {
 	return (
-		<main className="min-h-screen bg-[#1A1A1A] text-white overflow-x-hidden">
+		<main className="min-h-screen bg-[#0f0f0f] text-white overflow-x-hidden">
 			<HeroSection />
 			<SystemArchitecture />
 			<TechnicalMetrics />
