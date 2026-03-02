@@ -7,7 +7,7 @@ import ContactSection from './components/ContactSection';
 
 export default function BackendPortfolio() {
 	return (
-		<main className="min-h-screen bg-[#1A1A1A] text-white overflow-x-hidden">
+		<main className="min-h-screen bg-[#0f0f0f] text-white overflow-x-hidden">
 			<HeroSection />
 			<SystemArchitecture />
 			<TechnicalMetrics />
