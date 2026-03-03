@@ -10,7 +10,9 @@ const SKILL_GROUPS = [
 	{ label: 'Tools', color: 'cyan', skills: ['Git', 'Docker', 'Linux', 'Cypress', 'WPF', 'MVVM'] },
 ] as const;
 
-const skillClasses: Record<string, string> = {
+type Color = typeof SKILL_GROUPS[number]['color'];
+
+const skillClasses: Record<Color, string> = {
 	green: 'bg-green-500/10 border-green-500/30 text-green-300',
 	purple: 'bg-purple-500/10 border-purple-500/30 text-purple-300',
 	blue: 'bg-blue-500/10 border-blue-500/30 text-blue-300',
@@ -18,11 +20,6 @@ const skillClasses: Record<string, string> = {
 	cyan: 'bg-cyan-500/10 border-cyan-500/30 text-cyan-300',
 };
 
-/**
- * Render a terminal-style hero section that presents a name, short summary, and grouped, color-coded skill badges.
- *
- * @returns The JSX element for an animated, terminal-like card containing the "whoami" heading, a summary paragraph, and skill groups mapped from SKILL_GROUPS with styled badges.
- */
 export default function HeroSection() {
 	return (
 		<section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0f0f0f]">

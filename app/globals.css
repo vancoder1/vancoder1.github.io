@@ -1,7 +1,20 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 body {
-	background-color: #1a1a1a;
+	background-color: #0f0f0f;
+	color: #e5e7eb;
 }
+
+.glow-green {
+	text-shadow: 0 0 20px rgba(74, 222, 128, 0.4);
+}
+
+.card-hover {
+	transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-hover:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+

@@ -35,15 +35,6 @@ const SOCIALS = [
 	},
 ];
 
-/**
- * Render the contact section containing location, email, resume download, and social links.
- *
- * The section includes an animated header and a terminal-style card that presents the current
- * location, a mailto link, a resume download link, and a grid of social link cards generated
- * from the `SOCIALS` array.
- *
- * @returns The JSX element for the contact section
- */
 export default function ContactSection() {
 	return (
 		<section className="py-24 px-4 bg-[#0f0f0f]">

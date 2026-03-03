@@ -53,14 +53,6 @@ const PROJECTS = [
 	},
 ];
 
-/**
- * Render the "Engineering Experience" section with a responsive grid of project cards.
- *
- * Each card displays project metadata (title, subtitle, year, role, description, details, and tech badges)
- * and includes in-view animations and a hover accent.
- *
- * @returns A JSX section element containing the animated project list populated from `PROJECTS`.
- */
 export default function SystemArchitecture() {
 	return (
 		<section className="py-24 px-4 bg-[#0f0f0f]">

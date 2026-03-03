@@ -1,53 +1,62 @@
-# 👋 Ivan Zaporozhets - Portfolio Site 🚀
+# Ivan Zaporozhets - Portfolio
 
-Welcome to the repository for my personal portfolio website! This site showcases my journey as a software developer, highlighting my projects, skills, and educational background.
+> Software Engineer with 8+ years of experience specializing in Python, C#, and AI/ML integration.
 
-## 👨‍💻 About Me
+**[ivanzaporozhets.vercel.app](https://ivanzaporozhets.vercel.app)** | **[Resume PDF](https://ivanzaporozhets.vercel.app/Ivan_Zaporozhets_resume.pdf)**
 
-I'm Ivan Zaporozhets, a passionate and driven software developer currently honing my skills in Computer Programming at Red Deer Polytechnic. My educational journey also includes a comprehensive programming foundation from IT Step Online Computer Academy, where I mastered C#, C++, SQL Server, and .NET technologies. I thrive on building innovative solutions and continuously expanding my technical expertise.
-
-🔗 **Connect with me on GitHub:** [vancoder1](https://github.com/vancoder1)
-
-## 🛠️ Projects
-
-Here are some of the key projects I've developed:
-
-### 🤖 AsukaAI
-*   **Description:** A local, offline AI companion featuring real-time speech-to-text/text-to-speech for rapid interaction. It leverages Llama 3.1 3B for advanced local text-generation capabilities.
-*   **Tech Stack:** Python, Ollama, Kokoro, Faster-Whisper, PyTorch, LangChain
-*   **Repository:** [AsukaAI on GitHub](https://github.com/vancoder1/AsukaAI)
-
-### 🎬 YTubeD
-*   **Description:** A WPF C# desktop application designed for downloading YouTube videos in MP4 or MP3 format. It's built using the MVVM pattern for scalability and maintainability, featuring an intuitive Material Design UI.
-*   **Tech Stack:** C#, WPF, .NET
-*   **Repository:** [YTubeD on GitHub](https://github.com/vancoder1/YTubeD)
-
-### ✅ Methodic
-*   **Description:** A task management application for Android, developed using Kotlin. This app follows the MVVM architectural pattern for a scalable codebase and boasts a clean Material Design user interface.
-*   **Tech Stack:** Kotlin, Android SDK, Room, Jetpack Compose
-*   **Repository:** [Methodic on GitHub](https://github.com/vancoder1/Methodic)
-
-## 💡 Technical Skills
-
-I have experience with a diverse range of technologies, including:
-
-*   **Languages:** 🐍 Python, C#, C/C++, 🌐 HTML/CSS, 📜 JavaScript, ☕ Java, 📱 Kotlin, 📊 SQL (MSSQL, MySQL), 🐧 Bash
-*   **Frameworks & Libraries:** ASP.NET, ADO.NET, Entity Framework, PyTorch, TensorFlow, LangChain
-*   **Developer Tools:** Git, Linux, Docker, VS Code, Visual Studio, PyCharm, IntelliJ IDEA, Android Studio
-
-## 🎓 Education
-
-*   **Red Deer Polytechnic** (2024 - Present)
-    *   Program: Computer Programming
-    *   Focus: Developing expertise in Python, JavaScript, Java, C# and industry-standard development tools. Strengthening teamwork and problem-solving through collaborative application development.
-*   **IT Step Online Computer Academy** (2019 - 2021)
-    *   Program: Programming
-    *   Focus: Mastered C#, C++, SQL Server, ASP.NET, ADO.NET, and Entity Framework. Delivered multiple individual and team projects simulating real-world software scenarios.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ivan--zaporozhets-0a66c2?style=flat&logo=linkedin)](https://linkedin.com/in/ivan-zaporozhets)
+[![GitHub](https://img.shields.io/badge/GitHub-vancoder1-181717?style=flat&logo=github)](https://github.com/vancoder1)
+[![X](https://img.shields.io/badge/X-Vio__0x-000000?style=flat&logo=x)](https://x.com/Vio_0x)
 
 ---
 
-<p align="center">
-  <a href="public/Ivan_Zaporozhets_resume.pdf" target="_blank">
-    <img src="https://img.shields.io/badge/View%20Full%20Resume-PDF-red?style=for-the-badge&logo=adobeacrobatreader" alt="View Full Resume"/>
-  </a>
-</p>
+## About Me
+
+I started programming at 11, tinkering with Python, building simple webpages, and rooting Android phones. Over the years that curiosity grew into a serious engineering foundation - from mastering C/C++ and C# at IT Step Academy in Ukraine, to surviving a war and moving to Canada, to now wrapping up a Computer Programming Diploma at Red Deer Polytechnic while shipping open-source AI projects on the side.
+
+I love Python and C# the most, but I'm genuinely comfortable across the full stack - web, desktop, databases, and especially anything AI/ML. I've built offline LLM pipelines, automated enterprise QA systems with AI-generated tests, and an AI text adventure engine, among other things.
+
+---
+
+## Featured Projects
+
+| Project | Year | Role | Stack |
+|---|---|---|---|
+| **SynTA** - LLM-powered UAT automation, co-authored academic publication | 2026 | Lead Developer | C#, Cypress, Gherkin, AI |
+| **AsukaAI** - offline AI companion, most-starred repo | 2023 - present | AI Developer | Python, Llama 3.1, LangChain, PyTorch, Faster-Whisper |
+| **TaleWeaver** - adaptive AI text adventure with multiplayer | 2025 | AI/ML Developer | Python, ML |
+| **YTubeD** - WPF media downloader, strict MVVM | 2024 | Software Engineer | C#, WPF, .NET |
+
+---
+
+## Skills
+
+```text
+Languages   Python / C# / C/C++ / TypeScript / JavaScript / Java / Kotlin / SQL / Bash
+AI & ML     PyTorch / TensorFlow / LangChain / Llama 3.1 / Ollama / Faster-Whisper
+Web & Cloud React / Node.js / Next.js / ASP.NET / Entity Framework / Prisma
+Databases   PostgreSQL / Oracle DB / MSSQL / MySQL / MongoDB / SQLite
+Tools       Git / Docker / Linux / Cypress / WPF / MVVM
+```
+
+---
+
+## Education
+
+| Institution | Program | Period |
+|---|---|---|
+| Red Deer Polytechnic | Computer Programming Diploma | Sep 2024 - May 2026 |
+| Ivan Puluj Technical University | Software Engineering | 2022 - 2023 |
+| IT Step Academy | Programming & Architecture | 2019 - 2021 |
+
+---
+
+## This Site
+
+Built with **Next.js 16** (App Router), **Tailwind CSS v4**, **Framer Motion 12**, and **TypeScript**. Deployed on Vercel.
+
+```bash
+npm install
+npm run dev    # localhost:3000
+npm run build
+```

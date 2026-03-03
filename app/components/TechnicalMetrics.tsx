@@ -35,11 +35,6 @@ const EDUCATION = [
 	},
 ];
 
-/**
- * Render the Education timeline section with animated entries and styled timeline cards.
- *
- * @returns The JSX element representing the Education timeline section
- */
 export default function TechnicalMetrics() {
 	return (
 		<section className="py-24 px-4 bg-gray-950/80">
@@ -82,8 +77,8 @@ export default function TechnicalMetrics() {
 									<p className="text-green-400 text-sm font-semibold">{edu.degree}</p>
 									<p className="text-gray-500 text-xs mb-4">{edu.location}</p>
 									<ul className="space-y-2">
-										{edu.points.map((point) => (
-											<li key={point} className="flex gap-2 text-sm text-gray-400">
+										{edu.points.map((point, ptIdx) => (
+											<li key={`${index}-${ptIdx}`} className="flex gap-2 text-sm text-gray-400">
 												<span className="text-green-500 shrink-0 mt-0.5">›</span>
 												<span>{point}</span>
 											</li>
