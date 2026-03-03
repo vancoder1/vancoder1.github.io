@@ -10,7 +10,9 @@ const SKILL_GROUPS = [
 	{ label: 'Tools', color: 'cyan', skills: ['Git', 'Docker', 'Linux', 'Cypress', 'WPF', 'MVVM'] },
 ] as const;
 
-const skillClasses: Record<string, string> = {
+type Color = typeof SKILL_GROUPS[number]['color'];
+
+const skillClasses: Record<Color, string> = {
 	green: 'bg-green-500/10 border-green-500/30 text-green-300',
 	purple: 'bg-purple-500/10 border-purple-500/30 text-purple-300',
 	blue: 'bg-blue-500/10 border-blue-500/30 text-blue-300',

@@ -1,4 +1,4 @@
-﻿# Ivan Zaporozhets - Portfolio
+# Ivan Zaporozhets - Portfolio
 
 > Software Engineer with 8+ years of experience specializing in Python, C#, and AI/ML integration.
 
@@ -31,7 +31,7 @@ I love Python and C# the most, but I'm genuinely comfortable across the full sta
 
 ## Skills
 
-```
+```text
 Languages   Python / C# / C/C++ / TypeScript / JavaScript / Java / Kotlin / SQL / Bash
 AI & ML     PyTorch / TensorFlow / LangChain / Llama 3.1 / Ollama / Faster-Whisper
 Web & Cloud React / Node.js / Next.js / ASP.NET / Entity Framework / Prisma
